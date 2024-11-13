@@ -1,0 +1,313 @@
+*{
+  margin: 0;
+  
+  color: #fff;
+  padding: 0;
+}
+
+  /* Header section */
+
+header{
+  background: #000;
+  width: 100%;
+}
+
+
+header .header-inner{
+ padding: 2%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ 
+}
+
+header .header-inner  .join-text{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .header-inner  .join-text span{
+background: black;
+z-index: 1;
+}
+header .header-inner  .join-text img{
+  width: 15%;
+  margin-left: -7%;
+  z-index: 0;
+}
+header .header-inner img{
+  width: 100px;
+}
+
+#hero{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+#hero .hero-inner .join-text h1{
+  font-size: 110px;
+}
+#hero .hero-inner .join-text h1 span{
+  background-image: url(../images/footer-bg.png);
+  background-size: cover;
+  background-position: center center;
+  color: black;
+}
+
+#discover{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#discover p{
+  font-size: 25px;
+  width: 40%;
+  text-align: center;
+  margin-left: 30%;
+  
+}
+#discover h4 span{
+  background-image: url(../images/footer-bg.png);
+  background-size: cover;
+  background-position: center center;
+  color: #000;
+}
+#video{
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(212, 34, 34);
+ 
+}
+
+#forth{
+  background-color: rgb(252, 251, 251);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  
+
+
+}
+#forth p{
+  background: none;
+  color: #000;
+  font-size: 25px;
+  width: 50%;
+  text-align: center;
+  margin-left: 5%;
+}
+.join-text{
+  background: none;
+}
+
+.join-text button{
+  background: none;
+  border: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.join-text img{
+  background: none;
+
+}
+
+#fifth{
+  display: flex;
+  width: 100%;
+  margin-bottom: 100px;
+}
+#fifth img{
+  width: 25%;
+}
+
+
+#sixth {
+  text-align: center;
+  width: 100%;
+
+}
+
+#sixth .join-text span{
+
+  background-image: url(../images/footer-bg.png);
+  background-size: cover;
+  background-position: center ;
+  color: #000;
+   font-size: 50px;
+
+}
+
+.sixth-cards{
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+  background: none;
+  
+ 
+}
+.sixth-cards .card{
+  width: 30%;
+  background: none;
+  margin: 30px;
+  align-items: center;
+
+}
+.sixth-cards .card h2{
+  color: #fff;
+}
+.sixth-cards .card  span{
+  background-color: red;
+  
+}
+.sixth-cards .card p{
+  text-align: center;
+}
+
+#eighth{
+  display: flex;
+  width: 100%;
+  margin-bottom: 100px;
+}
+#eighth img{
+  width: 25%;
+}
+
+#ninth{
+  display: grid;
+  color: #000;
+  background-color: #fff;
+  height: 70vh;
+  align-items: center;
+  text-align: center;
+  padding:0 30%;
+}
+#ninth .title{
+color: #fff;
+background-image: url(../images/footer-bg.png);
+background-size: cover;
+background-position: center center ;
+font-size: 50px;
+}
+#ninth-inner .sub-title{
+   color: red;
+   
+}
+.ninth-inner form{
+  background-color: grey;
+  padding: 0 20% 20% 0;
+  text-align: left;
+}
+.ninth-inner form p{
+  color: #000;
+} 
+#ninth .ninth-inner  .join-text{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 5%;
+}
+
+#ninth .ninth-inner  .join-text span{
+background: white;
+z-index: 1;
+color: #000;
+font-weight: 900;
+font-size: 20px;
+}
+#ninth .ninth-inner  .join-text img{
+  width: 15%;
+  margin-left: -7%;
+  z-index: 0;
+}
+#ninth .ninth-inner img{
+  width: 30px;
+}
+
+#tenth {
+  text-align: center;
+  width: 100%;
+
+}
+
+#tenth .join-text span{
+
+  background-image: url(../images/footer-bg.png);
+  background-size: cover;
+  background-position: center ;
+  color: #000;
+   font-size: 50px;
+
+}
+
+.tenth-inner {
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+  background: none;
+  
+ 
+}
+.tenth-inner .card{
+  width: 30%;
+  background: none;
+  margin: 30px;
+  align-items: center;
+
+}
+.tenth-inner .card h3{
+  color: #fff;
+}
+
+.tenth-inner .card p{
+  text-align: center;
+}
+.footer img{
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
